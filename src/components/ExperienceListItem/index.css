@@ -1,0 +1,40 @@
+.list-avatar {
+  max-width: 100px;
+  width: 100%;
+}
+
+.date {
+  margin: 0px 0px;
+}
+
+.company-name {
+  font-size: 30px;
+  color: #f50057;
+  margin: 0px 0px;
+}
+
+.position {
+  margin: 0px 0px;
+}
+
+.root {
+  margin: 20px 0px;
+}
+
+@media (min-width: 960px) {
+  .date {
+    text-align: right;
+  }
+
+  .company-name {
+    font-size: 30px;
+    color: #f50057;
+    margin: 0px 0px;
+  }
+
+  .date-parent {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}

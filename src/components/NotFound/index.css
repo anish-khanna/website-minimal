@@ -1,0 +1,33 @@
+.notfound-root {
+  background-color: #282c34;
+  color: white;
+  height: 100%;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.centered {
+  text-align: center;
+}
+
+.notfound-container {
+  height: 100vh;
+}
+
+.label {
+  font-size: 15vh;
+  margin: 0 0;
+  color: #f50057;
+}
+
+.homeIcon {
+  color: white;
+}
+
+@media (min-width: 960px) {
+  .label {
+    font-size: 25vh;
+    line-height: 25vh;
+    margin: 0 0;
+  }
+}
