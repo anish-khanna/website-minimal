@@ -5,6 +5,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
 import PhoneIcon from '@material-ui/icons/Phone';
 import ExperienceListItem from './components/ExperienceListItem';
+import Wish from './images/Wish.png';
 import Lifion from './images/Lifion.png';
 import ThomsonReuters from './images/Thomson Reuters.png';
 import D2L from './images/D2L.png';
@@ -43,7 +44,8 @@ function App() {
             <h2 className="header">
               Experience
             </h2>
-            <List>
+            <List disablePadding>
+              <ExperienceListItem image={Wish} company="Wish" position="Software Developer Intern" dateString="Sept - Dec 2021" link="https://www.wish.com/companyinfo?hide_login_modal=true" />
               <ExperienceListItem image={Lifion} company="Lifion by ADP" position="Software Developer Intern" dateString="Jan - Apr 2021" link="https://lifion.com/" />
               <ExperienceListItem image={ThomsonReuters} company="Thomson Reuters" position="Software Developer Intern" dateString="May - Aug 2020" link="https://www.thomsonreuters.com/en.html" />
               <ExperienceListItem image={D2L} company="Desire 2 Learn" position="Software Developer Intern" dateString="Sept - Dec 2019" link="https://www.d2l.com/" />
